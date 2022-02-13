@@ -1,10 +1,10 @@
 # Projeto TrybeWallet
 
 <p>Projeto individual do módulo de Front-End na Trybe</p>
-<p>Com objetivo de desenvolver uma carteira de controle de gastos com conversor de moedas, com a possibilidade de: 
-  - Adicionar e remover um gasto;
-  - Visualizar uma tabelas com seus gastos;
-  - Visualizar o total de gastos convertidos para uma moeda de escolha;
+<p>Com objetivo de desenvolver uma carteira de controle de gastos com conversor de moedas em que o usuário tenha a possibilidade de: </p>
+  <li> Adicionar e remover um gasto; </li>
+  <li> Visualizar uma tabelas com seus gastos; </li>
+  <li> Visualizar o total de gastos convertidos para uma moeda de escolha; </li>
 
 # Habilidades
 
