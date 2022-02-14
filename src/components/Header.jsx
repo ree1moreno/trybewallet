@@ -30,20 +30,24 @@ class Header extends React.Component {
                 TrybeWallet
               </h2>
             </div>
-            <p data-testid="email-field" className="text-lg font-medium text-gray-300">
-              { `Olá: ${userEmail}`}
-            </p>
-            <div className="expense-container text-lg font-medium text-gray-300">
-              <p>
-                Despesa Total:
-                {' '}
-                <span data-testid="total-field">
-                  {this.expensesSum()}
+            <div className="userinfo-container">
+              <p data-testid="email-field" className="text-lg font-medium text-gray-300">
+                { `Olá: ${userEmail}`}{' '} 
+                
+              </p>
+              <span className="text-lg font-medium text-gray-300">-</span>
+              <div className="expense-container text-lg font-medium text-gray-300">
+                <p>
+                  Despesa Total:
+                  {' '}
+                  <span data-testid="total-field">
+                    {this.expensesSum()}
+                  </span>
+                </p>
+                <span data-testid="header-currency-field">
+                  BRL
                 </span>
-              </p>          
-              <span data-testid="header-currency-field">
-                BRL
-              </span>
+            </div>
             </div>
             <Logout />
           </div>
