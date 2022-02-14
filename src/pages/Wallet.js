@@ -68,7 +68,7 @@ class Wallet extends React.Component {
                 description={ description }
               />
               <button
-                className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-m font-medium rounded-md text-white bg-green-900 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 mt-2"
+                className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-m font-medium rounded-md text-gray-300 bg-green-900 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 mt-2"
                 type="button"
                 onClick={ this.saveWalletInfo }
               >

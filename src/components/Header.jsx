@@ -30,10 +30,10 @@ class Header extends React.Component {
                 TrybeWallet
               </h2>
             </div>
-            <p data-testid="email-field" className="text-lg font-medium text-orange-900">
+            <p data-testid="email-field" className="text-lg font-medium text-gray-300">
               { `Olá: ${userEmail}`}
             </p>
-            <div className="expense-container text-lg font-medium text-stone-900">
+            <div className="expense-container text-lg font-medium text-gray-300">
               <p>
                 Despesa Total:
                 {' '}

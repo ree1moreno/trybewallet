@@ -70,7 +70,8 @@ class Login extends React.Component {
                   Email:
                 </label>
                   <input
-                    className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-m"
+                    autoComplete="off"
+                    className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 focus:bg-green-50 sm:text-m"
                     data-testid="email-input"
                     id="email"
                     name="email"
@@ -85,7 +86,7 @@ class Login extends React.Component {
                   Senha:
                 </label>
                   <input
-                    className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-m"
+                    className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 focus:bg-green-50 sm:text-m"
                     data-testid="password-input"
                     id="password"
                     name="password"
@@ -97,7 +98,7 @@ class Login extends React.Component {
               </div>
             </div>
             <button
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-m font-medium rounded-md text-white bg-green-900 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-m font-medium rounded-md text-gray-300 bg-green-900 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
               disabled={ isButtonDisable }
               onClick={ this.handleClick }
               type="button"
