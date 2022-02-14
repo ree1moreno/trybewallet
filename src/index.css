@@ -3,9 +3,9 @@ div {
   padding: 0;
 }
 
-/* input:-webkit-autofill {
-  color: #2a2a2a !important;
-} */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
 
 .login-container {
   margin-top: 26vh;

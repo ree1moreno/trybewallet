@@ -70,7 +70,6 @@ class Login extends React.Component {
                   Email:
                 </label>
                   <input
-                    autoComplete="off"
                     className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 focus:bg-green-50 sm:text-m"
                     data-testid="email-input"
                     id="email"
@@ -86,7 +85,7 @@ class Login extends React.Component {
                   Senha:
                 </label>
                   <input
-                    className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 focus:bg-green-50 sm:text-m"
+                    className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 focus:bg-green-50 sm:text-m password-input"
                     data-testid="password-input"
                     id="password"
                     name="password"
